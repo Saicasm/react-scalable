@@ -6,7 +6,6 @@ import { renderRoutes } from './routes/generateroutes';
 const AppRoutes = renderRoutes(routes);
 
 function App() {
-
   return (
     <>
       <AppRoutes isAuthorized={true} />

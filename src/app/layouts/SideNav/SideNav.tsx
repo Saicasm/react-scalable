@@ -8,7 +8,7 @@ const SideNav: React.FC = () => {
     .flatMap(layout => layout.routes)
   return (
     <nav
-      className="fixed left-0 top-0 h-full  bg-gray-100 flex flex-col items-center py-8 shadow-md"
+      className="fixed left-0 top-0 h-full   w-52  flex flex-col items-center py-8 shadow-md"
       style={{ zIndex: 100 }}
     >
       {sideNavLinks.map(route => (
