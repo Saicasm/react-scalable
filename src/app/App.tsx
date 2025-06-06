@@ -7,9 +7,9 @@ const AppRoutes = renderRoutes(routes);
 
 function App() {
   return (
-    <>
-      <AppRoutes isAuthorized={true} />
-    </>
+
+    <AppRoutes isAuthorized={true} />
+
   )
 }
 
