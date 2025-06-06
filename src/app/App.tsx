@@ -1,7 +1,7 @@
 
 import '../App.css'
-import { routes } from './routes/routes'
-import { renderRoutes } from './routes/generateroutes';
+import { routes } from '@/app/routes/routes';
+import { renderRoutes } from '@/app/routes/generateroutes';
 
 const AppRoutes = renderRoutes(routes);
 

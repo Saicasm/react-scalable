@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { routes } from '../../routes/routes.ts';
+import { routes } from '@/app/routes/routes'
 
 // TODO: Clean up the code 
 const SideNav: React.FC = () => {
