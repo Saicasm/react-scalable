@@ -2,7 +2,7 @@ import flattenDeep from 'lodash/flattenDeep';
 import { type FC } from 'react';
 import { Route, Routes as ReactRoutes } from 'react-router-dom';
 import ProtectedRoute from './protected';
-import type { RouteConfig, LayoutRoute, RoutesProps } from '../../types/index';
+import type { RouteConfig, LayoutRoute, RoutesProps } from '@/types/index';
 
 
 // Helper: flatten deeply nested route config into RouteConfig[]

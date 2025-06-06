@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme{
+  --color-light-bg-primary: #080708;
+  --color-light-bg-secondary: #1B1B1B;
+  --color-light-text-primary: #f3f3f3;
+  --color-light-text-secondary: #9C9C9C;
+  --color-accent: #45a29e;
+}
+html, body, #root {
+  @apply h-full;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -18,11 +28,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #f3f3f3;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #9C9C9C;
 }
 
 body {
@@ -32,7 +42,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
+html,
+body,
+#root {
+  height: 100%;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -50,14 +64,14 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #9C9C9C;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -68,15 +82,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
+
 
 
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 244 245 244;
     --foreground: 222.2 84% 4.9%;
-
+    --bg: 0 0% 100%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 

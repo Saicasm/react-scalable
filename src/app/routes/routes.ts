@@ -1,8 +1,8 @@
-import Rick from "../../pages/Rick";
-import Starwars from "../../pages/Starwars";
-import MainLayout from "../layouts/Layout";
-import Home from "../../pages/Home";
-import type {  LayoutRoute } from '../../types/index';
+import Rick from "@/pages/Rick";
+import Starwars from "@/pages/Starwars";
+import MainLayout from "@/app/layouts/Layout";
+import Home from "@/pages/Home";
+import type {  LayoutRoute } from '@/types/index';
 
 export const routes : LayoutRoute[]  = [
   {

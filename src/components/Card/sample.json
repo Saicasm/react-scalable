@@ -1,0 +1,194 @@
+{
+  "data": {
+    "characters": {
+      "info": {
+        "count": 826,
+        "next": 2,
+        "pages": 42,
+        "prev": null
+      },
+      "results": [
+        {
+          "gender": "Male",
+          "id": "1",
+          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+          "name": "Rick Sanchez",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "2",
+          "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+          "name": "Morty Smith",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Female",
+          "id": "3",
+          "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+          "name": "Summer Smith",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Female",
+          "id": "4",
+          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+          "name": "Beth Smith",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "5",
+          "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+          "name": "Jerry Smith",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Female",
+          "id": "6",
+          "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+          "name": "Abadango Cluster Princess",
+          "species": "Alien",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "7",
+          "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+          "name": "Abradolf Lincler",
+          "species": "Human",
+          "status": "unknown",
+          "type": "Genetic experiment"
+        },
+        {
+          "gender": "Male",
+          "id": "8",
+          "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+          "name": "Adjudicator Rick",
+          "species": "Human",
+          "status": "Dead",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "9",
+          "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+          "name": "Agency Director",
+          "species": "Human",
+          "status": "Dead",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "10",
+          "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+          "name": "Alan Rails",
+          "species": "Human",
+          "status": "Dead",
+          "type": "Superhuman (Ghost trains summoner)"
+        },
+        {
+          "gender": "Male",
+          "id": "11",
+          "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+          "name": "Albert Einstein",
+          "species": "Human",
+          "status": "Dead",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "12",
+          "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+          "name": "Alexander",
+          "species": "Human",
+          "status": "Dead",
+          "type": ""
+        },
+        {
+          "gender": "unknown",
+          "id": "13",
+          "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+          "name": "Alien Googah",
+          "species": "Alien",
+          "status": "unknown",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "14",
+          "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+          "name": "Alien Morty",
+          "species": "Alien",
+          "status": "unknown",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "15",
+          "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+          "name": "Alien Rick",
+          "species": "Alien",
+          "status": "unknown",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "16",
+          "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+          "name": "Amish Cyborg",
+          "species": "Alien",
+          "status": "Dead",
+          "type": "Parasite"
+        },
+        {
+          "gender": "Female",
+          "id": "17",
+          "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+          "name": "Annie",
+          "species": "Human",
+          "status": "Alive",
+          "type": ""
+        },
+        {
+          "gender": "Male",
+          "id": "18",
+          "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+          "name": "Antenna Morty",
+          "species": "Human",
+          "status": "Alive",
+          "type": "Human with antennae"
+        },
+        {
+          "gender": "Male",
+          "id": "19",
+          "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+          "name": "Antenna Rick",
+          "species": "Human",
+          "status": "unknown",
+          "type": "Human with antennae"
+        },
+        {
+          "gender": "Male",
+          "id": "20",
+          "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+          "name": "Ants in my Eyes Johnson",
+          "species": "Human",
+          "status": "unknown",
+          "type": "Human with ants in his eyes"
+        }
+      ]
+    }
+  }
+}
