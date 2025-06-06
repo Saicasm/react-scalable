@@ -8,7 +8,7 @@ const SideNav: React.FC = () => {
     .flatMap(layout => layout.routes)
   return (
     <nav
-      className="fixed left-0 top-0 h-full   w-52  flex flex-col items-center py-8 shadow-md"
+      className="fixed left-0 top-0 h-full bg-light-bg-secondary text-light-text-primary  w-52  flex flex-col items-center py-20 shadow-md "
       style={{ zIndex: 100 }}
     >
       {sideNavLinks.map(route => (
@@ -17,9 +17,8 @@ const SideNav: React.FC = () => {
           to={{
             pathname: route.path,
           }}
-
           className={({ isActive }) =>
-            `w-full text-center py-3 text-xl font-semibold mb-2 rounded transition ${isActive ? 'bg-blue-500 text-white' : 'hover:bg-blue-100'
+            `w-full text-center py-3 text-xl font-semibold mb-2 rounded transition ${isActive ? 'bg-accent rounded-2xl  text-light-text-secondary' : 'text-light-text-primary'
             }`
           }
           end={route.path === '/'}

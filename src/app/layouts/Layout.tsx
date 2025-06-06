@@ -8,13 +8,13 @@ import SideNavOverlay from "./SideNav/SideNavOverlay";
 const MainLayout: React.FC = () => {
     const [isMobileNavOpen, setMobileNavOpen] = useState(false);
 
-    return (<Fragment>
+    return (<div className="flex w-full  h-full  ">
         <Header />
         <SideNav />
         {/* <SideNavOverlay isOpen={isMobileNavOpen} onClose={() => setMobileNavOpen(false)} /> */}
-        <main className="ml-16 mt-16 sm:ml-44 p-4 transition-all duration-300">
+        <main className="ml-16 mt-16 sm:ml-52 h-full  transition-all duration-300 bg-light-bg-primary w-full">
             <Outlet />
         </main>
-    </Fragment>)
+    </div>)
 }
 export default MainLayout;  
