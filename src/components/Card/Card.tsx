@@ -5,11 +5,13 @@ interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
     imageUrl?: string;
 
 }
+
+
 const CardBody: React.FC = () => {
     return (
-        <div className="flex-1">
-            <h2 className="text-lg font-semibold">Card Body</h2>
-            <p className="text-gray-600">This is the body of the card.</p>
+        <div className="mx-4 flex justify-between mt-2">
+            <span> Name: </span>
+            <span>Rick </span>
         </div>
     );
 }
@@ -25,12 +27,12 @@ const Card: React.FC<CardProps> = ({ imageUrl, ...props }) => {
     const { image, gender, name, status, species } = data.data.characters.results[0];
     return (
         <div
-            className={`bg-light-bg-secondary  rounded-3xl shadow-md p-4 flex flex-col items-center`}
+            className={`bg-light-bg-secondary  rounded-3xl shadow-md p-4 flex flex-col `}
         >
             {image && (
                 <div className="">
                     <img
-                        src={image}
+                        src={imageUrl}
                         alt={name || "Card Image"}
                         className="  rounded-lg"
                     />

@@ -4,7 +4,7 @@ import RickOptions from './components/options';
 
 const Rick: React.FC = () => {
     return (
-        <div className="text-center  my-16 mx-16 ">
+        <div className="text-center  my-16 mx-16 h-full">
             <RickOptions />
             <CharactersList />
         </div>
