@@ -18,3 +18,24 @@ export interface LayoutRoute {
 export interface RoutesProps {
   isAuthorized: boolean;
 }
+
+export type Character = {
+  id: string;
+  name: string;
+  image: string;
+  gender: string;
+  species: string;
+  status: string;
+};
+
+export type GetCharactersResponse = {
+  characters: {
+    info: {
+      count: number;
+      pages: number;
+      next: number | null;
+      prev: number | null;
+    };
+    results: Character[];
+  };
+};

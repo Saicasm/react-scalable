@@ -23,7 +23,6 @@ const CardFooter: React.FC = () => {
 
 const Card: React.FC<CardProps> = ({ imageUrl, ...props }) => {
     const { image, gender, name, status, species } = data.data.characters.results[0];
-    console.log(image)
     return (
         <div
             className={`bg-light-bg-secondary  rounded-3xl shadow-md p-4 flex flex-col items-center`}
