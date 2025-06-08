@@ -1,6 +1,6 @@
 import React from 'react';
 
-// TODO: Clean up the code 
+// TODO: Get the header Value from the State Management
 const Header: React.FC = () => {
 
     return (

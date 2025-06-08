@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, ...props }) => {
         <div
             className={`bg-light-bg-secondary  rounded-3xl shadow-md p-4 flex flex-col `}
         >
-            {image && (
+            {imageUrl && (
                 <div className="">
                     <img
                         src={imageUrl}

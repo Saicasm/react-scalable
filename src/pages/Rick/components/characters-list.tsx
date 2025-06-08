@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import Card from '@/components/Card/Card';
 import { useInfiniteCharacters } from '../api/get-characters';
 
@@ -6,6 +6,7 @@ const CharactersList: React.FC = () => {
 
     const { data, hasNextPage, fetchNextPage, isFetchingNextPage, isLoading, } = useInfiniteCharacters({})
 
+    // Create a ref to observe the last element
     const observerRef = useRef<HTMLDivElement | null>(null);
 
     const handleObserver = useCallback(
@@ -25,7 +26,6 @@ const CharactersList: React.FC = () => {
             rootMargin: '20px',
             threshold: 0,
         };
-
         const observer = new IntersectionObserver(handleObserver, option);
         if (observerRef.current) observer.observe(observerRef.current);
 

@@ -7,7 +7,7 @@ const RickOptions: React.FC = () => {
         <>
             <div className='h-20 w-full flex justify-evenly bg-light-bg-secondary items-center rounded-md border-2 '>
                 <span> All Characters</span>
-                <span>Search By name</span>
+                <span>Search By name & clear</span>
                 <span>Recents</span>
             </div>
         </>
