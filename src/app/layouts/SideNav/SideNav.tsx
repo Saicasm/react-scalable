@@ -21,6 +21,8 @@ const SideNav: React.FC = () => {
             `w-full text-center py-3 text-xl font-semibold mb-2 rounded transition ${isActive ? 'bg-accent rounded-2xl  text-light-text-secondary' : 'text-light-text-primary'
             }`
           }
+          //TODO: Store it in State Management
+          onClick={() => { console.log(`Navigating to ${route.name}`) }}
           end={route.path === '/'}
         >
           {route.title}

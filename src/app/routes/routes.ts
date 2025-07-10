@@ -1,4 +1,4 @@
-import Rick from "@/pages/Rick";
+import Rick from "@/pages/rick";
 import Starwars from "@/pages/Starwars";
 import MainLayout from "@/app/layouts/Layout";
 import Home from "@/pages/Home";
